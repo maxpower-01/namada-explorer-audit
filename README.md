@@ -2,7 +2,7 @@
 
 This repository tracks an open effort to audit and evaluate different Namada blockchain explorers. The aim is to compare their features and accuracy against reliable data sources, with the long-term goal of improving the quality and trustworthiness of Namada's ecosystem tools.
 
-It's the first attempt at putting something like this together, and we’ll figure things out as we go. We’ll use branches to explore different parts of the project without overcommitting to any single structure right away.
+It's the first attempt at putting something like this together, and we’ll figure things out as we go. We’ll use branches to explore different parts of the project without overcommitting to any single structure right away.s
 
 ## About This Audit
 
@@ -42,6 +42,26 @@ Each explorer will be reviewed based on how well it supports the following core 
 * Shielded Transactions and Privacy Metrics - Volume of shielded vs transparent transactions, and trends in shielded pool activity (in a privacy-preserving way).
 
 * IBC Transfers - Cross-chain transfers, including source/target chains, amounts, and channel statuses.
+
+# Explorers Being Audited
+
+This file lists all explorers currently included in the audit, grouped by the network they operate on.
+
+## Mainnet Explorers
+
+These explorers are serving data from the **Namada mainnet**:
+
+- [explorer75.org](https://explorer75.org/namada) – Explorer75 by ProNodes 
+- [valopers.com](https://namada.valopers.com) – Valopers by Bitszn 
+- [shielded.live](https://shielded.live) – Shielded.live by Daniel / Mandragora
+- [coverlet.io](https://namada.coverlet.io) – Coverlet
+- [sproutstake.space](https://namada-explorer.sproutstake.space/main) – Sproutstake
+
+## Housefire Network
+
+This explorer serves the **Namada Housefire testnet**:
+
+- [explorer75.org (Housefire)](https://explorer75.org/namada-housefire) – Explorer75 (Housefire) by ProNodes 
 
 ## How the repository is organized
 
